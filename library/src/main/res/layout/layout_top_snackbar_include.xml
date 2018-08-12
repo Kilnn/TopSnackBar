@@ -17,7 +17,7 @@
 
 <view
     xmlns:android="http://schemas.android.com/apk/res/android"
-    class="com.kilnn.topsnackbar.TopSnackbarContentLayout"
+    class="com.github.kilnn.topsnackbar.TopSnackbarContentLayout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="top"

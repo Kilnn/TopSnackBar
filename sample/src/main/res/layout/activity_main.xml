@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.kilnn.topsnackbar.sample.MainActivity">
+    tools:context="com.kilnn.topsnackbar.sample.com.github.kilnn.topsnackbar.sample.MainActivity">
 
     <Button
         android:id="@+id/btn1"
