@@ -9,8 +9,6 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.kilnn.topsnackbar.R;
-
 /**
  * Created by Kilnn on 2017/8/13.
  */

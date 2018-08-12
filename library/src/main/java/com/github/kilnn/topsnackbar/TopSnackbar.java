@@ -22,7 +22,6 @@ import android.view.ViewParent;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import com.kilnn.topsnackbar.R;
 
 /**
  * Created by Kilnn on 2017/8/12.

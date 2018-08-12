@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 
 import com.github.kilnn.topsnackbar.TopSnackbar;
 import com.github.kilnn.topsnackbar.TopSnackbarContentLayout;
+import com.github.kilnn.topsnackbar.sample.R;
 
 /**
  * Created by Kilnn on 2017/8/13.
@@ -30,8 +31,7 @@ public class TopSnackActionBar extends TopSnackbar {
 
         final LayoutInflater inflater = LayoutInflater.from(parent.getContext());
         final TopSnackbarContentLayout content =
-                (TopSnackbarContentLayout) inflater.inflate(
-                        com.kilnn.topsnackbar.R.layout.layout_top_snackbar_include, parent, false);
+                (TopSnackbarContentLayout) inflater.inflate(R.layout.layout_top_snackbar_include, parent, false);
         final TopSnackbar snackbar = new TopSnackbar(parent, content, content);
         snackbar.setText(text);
         snackbar.setDuration(duration);

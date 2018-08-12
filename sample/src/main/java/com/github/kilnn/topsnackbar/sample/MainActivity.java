@@ -8,7 +8,6 @@ import android.view.Window;
 
 import com.github.kilnn.topsnackbar.BaseTransientTopBar;
 import com.github.kilnn.topsnackbar.TopSnackbar;
-import com.kilnn.topsnackbar.sample.R;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -27,13 +26,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onDismissed(TopSnackbar transientBottomBar, @DismissEvent int event) {
                 super.onDismissed(transientBottomBar, event);
-                Log.e("Kilnn","onDismissed");
+                Log.e("Kilnn", "onDismissed");
             }
 
             @Override
             public void onShown(TopSnackbar transientBottomBar) {
                 super.onShown(transientBottomBar);
-                Log.e("Kilnn","onShown");
+                Log.e("Kilnn", "onShown");
             }
         });
         findViewById(R.id.btn1)
