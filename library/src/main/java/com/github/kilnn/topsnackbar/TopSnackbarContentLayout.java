@@ -2,12 +2,13 @@ package com.github.kilnn.topsnackbar;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.v4.view.ViewCompat;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import androidx.core.view.ViewCompat;
 
 /**
  * Created by Kilnn on 2017/8/13.
@@ -28,7 +29,7 @@ public class TopSnackbarContentLayout extends LinearLayout implements
 
     public TopSnackbarContentLayout(Context context, AttributeSet attrs) {
         super(context, attrs);
-        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.SnackbarLayout);
+        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.TopSnackbarLayout);
         mMaxWidth = a.getDimensionPixelSize(R.styleable.TopSnackbarLayout_android_maxWidth, -1);
         mMaxInlineActionWidth = a.getDimensionPixelSize(
                 R.styleable.TopSnackbarLayout_maxActionInlineWidth, -1);
